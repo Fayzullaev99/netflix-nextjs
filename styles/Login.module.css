@@ -90,6 +90,7 @@
   height: 3rem /* 48px */;
   min-width: 240px;
   font-size: 1.2rem;
+  background: #fff;
 }
 
 .userMsg {

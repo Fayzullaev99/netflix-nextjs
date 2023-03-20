@@ -7,7 +7,7 @@ import Image from "next/image";
 
 import { magic } from "../../lib/magic-client";
 
-const Navbar = () => {
+const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [username, setUsername] = useState("");
   const [didToken, setDidToken] = useState("");
@@ -71,8 +71,8 @@ const Navbar = () => {
               <Image
                 src="/static/netflix.svg"
                 alt="Netflix logo"
-                width={128}
-                height={34}
+                width="128px"
+                height="34px"
               />
             </div>
         </Link>
@@ -93,8 +93,8 @@ const Navbar = () => {
               <Image
                 src={"/static/expand_more.svg"}
                 alt="Expand dropdown"
-                width={128}
-                height={34}
+                width="24px"
+                height="24px"
               />
             </button>
 
@@ -115,4 +115,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default NavBar;
